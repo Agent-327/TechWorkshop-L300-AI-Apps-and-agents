@@ -157,9 +157,6 @@ resource appServicePlan 'Microsoft.Web/serverFarms@2022-09-01' = {
   name: appServicePlanName
   location: location
   kind: 'linux'
-  tags: {
-    SecurityControl: 'Ignore'
-  }
   properties: {
     reserved: true
   }
